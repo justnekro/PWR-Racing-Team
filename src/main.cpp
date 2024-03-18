@@ -46,8 +46,12 @@ int main() {
     std::vector<Point> vertices = algorithm.findVertices();
 
     //Writing points to the terminal
-    for (Point point : vertices)
-        std::cout << point.to_string(1) << " ";
-
+    std::cout << "\n[";
+    for (size_t i = 0; i < vertices.size(); ++i) {
+        std::cout << vertices[i].to_string(1);
+        if (i < vertices.size() - 1) std::cout << ", ";
+    }
+    std::cout << "]\n";
+    
     return 0;
 }
