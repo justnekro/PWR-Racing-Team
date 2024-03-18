@@ -22,14 +22,6 @@ double Point::getY() const {
     return y;
 }
 
-void Point::setX(double newX) {
-    x = newX;
-}
-
-void Point::setY(double newY) {
-    y = newY;
-}
-
 bool Point::operator==(const Point &rhs) const {
     return x == rhs.x && y == rhs.y;
 }
