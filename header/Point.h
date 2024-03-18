@@ -1,3 +1,7 @@
+//
+// Created by jakus on 16.03.2024.
+//
+
 #ifndef PWR_RT_POINT_H
 #define PWR_RT_POINT_H
 
@@ -15,6 +19,9 @@ class Point {
 
     double getX() const;
     double getY() const;
+
+    void setX(double newX);
+    void setY(double newY);
 
     bool operator==(const Point &rhs) const;
 };

@@ -52,6 +52,6 @@ int main() {
         if (i < vertices.size() - 1) std::cout << ", ";
     }
     std::cout << "]\n";
-    
+
     return 0;
 }
