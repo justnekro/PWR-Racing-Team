@@ -1,7 +1,3 @@
-//
-// Created by jakus on 17.03.2024.
-//
-
 #ifndef PWR_RT_ALGORITHM_H
 #define PWR_RT_ALGORITHM_H
 
