@@ -16,9 +16,6 @@ class Point {
     double getX() const;
     double getY() const;
 
-    void setX(double newX);
-    void setY(double newY);
-
     bool operator==(const Point &rhs) const;
 };
 
